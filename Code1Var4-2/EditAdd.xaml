@@ -1,0 +1,32 @@
+﻿<Window x:Class="Code1Var4_2.EditAdd"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Code1Var4_2"
+        mc:Ignorable="d"
+        Title="EditAdd" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="titileLabel" Content="Заголовок" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="107"/>
+        <TextBox x:Name="titileTB" HorizontalAlignment="Left" Margin="122,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="194"/>
+        <Label x:Name="descriptionLabel" Content="Описание" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" Width="107"/>
+        <TextBox x:Name="descriptionTB" HorizontalAlignment="Left" Margin="122,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="668" Height="119"/>
+        <Label x:Name="deadlineLabel" Content="Срок исполнения" HorizontalAlignment="Left" Margin="10,164,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="deadlineDP" HorizontalAlignment="Left" Margin="122,164,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.027,0.14"/>
+        <Label x:Name="difficultyLabel" Content="Сложность" HorizontalAlignment="Left" Margin="10,220,0,0" VerticalAlignment="Top" Width="107"/>
+        <TextBox x:Name="difficultyTB" HorizontalAlignment="Left" Margin="122,224,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="completedLabel" Content="Дата исполнения" HorizontalAlignment="Left" Margin="10,194,0,0" VerticalAlignment="Top" Width="107"/>
+        <DatePicker x:Name="completedDP" HorizontalAlignment="Left" Margin="122,194,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.029,0.387"/>
+        <CheckBox x:Name="completedCB" Content="Завершена?" HorizontalAlignment="Left" Margin="227,194,0,0" VerticalAlignment="Top" Height="22"/>
+        <Label x:Name="timeLabel" Content="Время" HorizontalAlignment="Left" Margin="10,246,0,0" VerticalAlignment="Top" Width="103"/>
+        <TextBox x:Name="timeTB" HorizontalAlignment="Left" Margin="122,247,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="statusLabel" Content="Статус" HorizontalAlignment="Left" Margin="10,272,0,0" VerticalAlignment="Top" Width="103"/>
+        <ComboBox x:Name="statusCB" HorizontalAlignment="Left" Margin="122,276,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="workTypeLabel" Content="Тип работ" HorizontalAlignment="Left" Margin="10,303,0,0" VerticalAlignment="Top" Width="103"/>
+        <ComboBox x:Name="workTypeCB" HorizontalAlignment="Left" Margin="122,304,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="executorLabel" Content="Исполнитель" HorizontalAlignment="Left" Margin="10,334,0,0" VerticalAlignment="Top" Width="103"/>
+        <ComboBox x:Name="executorCB" HorizontalAlignment="Left" Margin="122,334,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="submitButton" Content="Сохранить" HorizontalAlignment="Left" Margin="456,334,0,0" VerticalAlignment="Top" Height="90" Width="334"/>
+
+    </Grid>
+</Window>
